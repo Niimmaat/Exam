@@ -44,3 +44,4 @@ Route::get('/filiere/{filiere}/edit', [FiliereController::class, 'edit'])->name(
 Route::put('/filiere/{filiere}', [FiliereController::class, 'update'])->name('filiere.update');
 Route::get('/filiere/{filiere}/delete', [FiliereController::class, 'destroy'])->name('filiere.destroy');
 
+dgbsfg sf
